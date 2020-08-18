@@ -13,9 +13,9 @@ export default class Profile extends React.Component {
             className="profilePic"
             src={profilePic}
             alt="Marco"/>
-            <h1 className="headline">Hello, I'm <strong className="name">Marco Varela</strong>.</h1>
-            <h3 className="headline2">I'am a full stack web developer.</h3>
-            <button className="btn">View my work ➡</button>
+          <h1 className="headline">Hello, I'm <strong className="name">Marco Varela</strong>.</h1>
+          <h3 className="headline2">I'am a full stack web developer.</h3>
+          <button className="btn">My Projects ➡</button>
         </div>
       </div>
     );
