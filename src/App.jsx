@@ -4,8 +4,9 @@ import Scrollspy from 'react-scrollspy'
 
 import './App.scss';
 import Circles from './components/circles';
-import Profile from './components/profile';
+import AboutMe from './components/aboutMe';
 import SocialMedia from './components/socialMedia';
+import ProjectList from './components/projectList';
 
 const App = () => {
   return (
@@ -15,10 +16,11 @@ const App = () => {
           type="cobweb"
           num={160}
           bg={true} />
-        <Profile/>
+        <AboutMe/>
       </section>
+      <hr/>
       <section id="section-2">
-
+        <ProjectList/>
       </section>
       <Scrollspy
         className="sidebar"

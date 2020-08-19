@@ -5,4 +5,7 @@
 .sidebar{
   position: fixed;
   top: 0;
+  .is-current {
+    background-color: red;
+  }
 }
