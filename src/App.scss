@@ -2,10 +2,35 @@
 
 }
 
-.sidebar{
+.sidebar {
   position: fixed;
   top: 0;
+  margin-top: 8px;
+  opacity: 0.8;
+  background-image: url('././images/pattern.png');
+  padding: 0;
+  border: 1px groove #000;
+  border-radius: 0px 0px 100px ;
+  box-shadow: 2px 3px #0009;
+  li {
+    display: inline-flex;
+    margin: 4px 1.8em;
+    list-style-type: none;
+    a {
+      text-decoration: none;
+      color: #000;
+      font-size: calc(12px + (22 - 14) * ((100vw - 1000px) / (1600 - 300)));
+      &:hover {
+        text-decoration: overline;
+      }
+    }
+  }
   .is-current {
-    background-color: red;
+    -webkit-transition: 0.2s  ease-in-out;
+    -moz-transition: 0.2s  ease-in-out;
+    -o-transition: 0.2s  ease-in-out;
+    transition: 0.2s  ease-in-out;
+    text-decoration: overline;
+    font-weight: bold;
   }
 }

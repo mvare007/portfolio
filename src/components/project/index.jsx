@@ -12,9 +12,9 @@ const Project = ({name, description, image, demo, code}) => {
         <h2 className="card-title">{name}</h2>
         <p className="card-intro">{description}</p>
       </div>
-      <div>
-        <a href={code}>Code</a>
-        <a href={demo}>Demo</a>
+      <div className="buttons">
+        <a className="btn-prj green" href={code}>Code</a>
+        <a className="btn-prj purple" href={demo}>Demo</a>
       </div>
     </div>
   );

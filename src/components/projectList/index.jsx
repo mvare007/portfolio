@@ -2,13 +2,12 @@ import React from 'react';
 
 import './index.scss';
 import projects from './projects.json';
+import Project from'../project';
 
-import Project from '../project';
-
-
-export default class ProjectList extends React.Component {
-  render() {
-    return(
+const ProjectList = () => {
+  return(
+    <div>
+      <h1 className="title">My Projects:</h1>
       <div className="projects">
         {projects.map(project => {
           return <Project
@@ -20,6 +19,8 @@ export default class ProjectList extends React.Component {
                   code={project.code}/>
         })}
       </div>
-    );
-  }
+    </div>
+  );
 }
+
+export default ProjectList;

@@ -1,4 +1,5 @@
 import React from 'react';
+import Typed from 'react-typed';
 
 import './index.scss';
 
@@ -13,7 +14,10 @@ const AboutMe = () => {
           src={profilePic}
           alt="Marco"/>
         <h1 className="headline">Hello, I'm <strong className="name">Marco Varela</strong>.</h1>
-        <h3 className="headline2">I'am a full stack web developer.</h3>
+        <Typed
+           className="headline2"
+           strings={['I\'am a full stack web developer based in Lisbon.']}
+           typeSpeed={20}/>
         <button className="btn">My Projects ➡</button>
       </div>
     </div>
