@@ -6,8 +6,7 @@ import './App.scss';
 import AboutMe from './components/aboutMe';
 import ProjectList from './components/projectList';
 import Skills from './components/mySkills';
-import SocialMedia from './components/socialMedia';
-import Circles from './components/circles';
+import Contact from './components/contact';
 
 
 const App = () => {
@@ -21,7 +20,6 @@ const App = () => {
           bg={true} />
         <AboutMe/>
       </section>
-      <hr/>
       <section id="projects">
         <ProjectList/>
       </section>
@@ -29,11 +27,12 @@ const App = () => {
       <section id="skills">
         <Skills/>
       </section>
+      <hr/>
       <section id="contact">
-
+        <Contact/>
       </section>
       <Scrollspy
-        className="sidebar"
+        className="scrollspy"
         items={ ['about', 'projects', 'skills', 'contact'] }
         currentClassName="is-current">
          <li><a href="#about">About</a></li>

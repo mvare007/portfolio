@@ -18,7 +18,7 @@ const AboutMe = () => {
            className="headline2"
            strings={['I\'am a full stack web developer based in Lisbon.']}
            typeSpeed={20}/>
-        <button className="btn">My Projects ➡</button>
+        <a href="#projects" className="btn">My Projects ▼</a>
       </div>
     </div>
   );

@@ -1,33 +1,18 @@
-.mainSkills {
-  height: 80vh;
-  width: 70vw;
-  margin: 0 auto;
-}
-
-.otherSkills {
-  text-align: center;
-}
-
-.title {
-  text-align: center;
-  opacity: 0.9;
-  font-size: calc(20px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
-  line-height: 80px;
-  text-shadow: 0 10px 8px #c4b59d,0 2px 1px #fff;
-}
-
 .container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 30px;
-  margin: 10rem 2rem;
-
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 8rem;
+  margin: 2rem 0;
 }
 
 // Smallest device
 @media (min-width: 100px) and (max-width: 575px) {
   .container {
     grid-template-columns: 1fr;
+  }
+  .mainSkills {
+    height: 80vh;
+    width: 90vw;
   }
 }
 
@@ -43,18 +28,67 @@
   .container {
     grid-template-columns: 1fr 1fr;
   }
+  .mainSkills {
+    height: 80vh;
+    width: 70vw;
+  }
 }
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
   .container {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
   .container {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+  .mainSkills {
+    height: 80vh;
+    width: 70vw;
   }
 }
+
+.otherSkills {
+  text-align: center;
+  width: 70%;
+  height: 100vh;
+  margin: auto;
+  ul {
+    margin: 2rem 0;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    li {
+      display: grid;
+      grid-template-columns: 1fr;
+      justify-items: center;
+      align-items: center;
+      margin: 2rem 0;
+      span {
+        font-size: calc(10px + (22 - 14) * ((100vw - 300px) / (1600 - 300)));
+      }
+      svg {
+        background-image: url('../../images/pattern.png');
+        border: 1px solid #000;
+        border-radius: 50px;
+        padding: 12px;
+        font-size: calc(24px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+        margin-bottom: 10px;
+        &:hover {
+          background-image: url('../../images/pattern2.png');
+        }
+      }
+    }
+  }
+}
+
+.title {
+  text-align: center;
+  opacity: 0.9;
+  font-size: calc(30px + (20 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+

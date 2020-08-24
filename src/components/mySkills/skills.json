@@ -1,26 +1,26 @@
 [
   {
-    "skill": "Ruby",
-    "Ruby on Rails": 85
-  },
-  {
-    "skill": "JavaScript",
-    "JavaScript": 75
-  },
-  {
-    "skill": "React",
-    "React": 70
-  },
-  {
-    "skill": "SQL",
-    "SQL": 60
+    "skill": "HTML",
+    "HTML5": 95
   },
   {
     "skill": "CSS",
     "CSS": 80
   },
   {
-    "skill": "HTML5",
-    "HTML5": 95
+    "skill": "SQL",
+    "SQL": 60
+  },
+  {
+    "skill": "React",
+    "React": 70
+  },
+  {
+    "skill": "JavaScript",
+    "JavaScript": 75
+  },
+  {
+    "skill": "Ruby",
+    "Ruby on Rails": 85
   }
 ]
