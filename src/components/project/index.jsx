@@ -1,4 +1,6 @@
 import React from 'react';
+import { BiCodeAlt } from "react-icons/bi";
+import { HiOutlineExternalLink } from "react-icons/hi";
 
 import './index.scss';
 
@@ -13,8 +15,12 @@ const Project = ({name, description, image, demo, code}) => {
         <p className="card-intro">{description}</p>
       </div>
       <div className="buttons">
-        <a className="btn-prj green" href={code}>Code</a>
-        <a className="btn-prj purple" href={demo}>Demo</a>
+        <a className="btn-prj green"
+           target="_blank" rel="noopener noreferrer"
+           href={code}><BiCodeAlt/> Code</a>
+        <a className="btn-prj purple"
+           target="_blank" rel="noopener noreferrer"
+           href={demo}><HiOutlineExternalLink/> Demo</a>
       </div>
     </div>
   );

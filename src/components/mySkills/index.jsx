@@ -1,10 +1,10 @@
 import React from 'react';
 import { ResponsiveBar } from '@nivo/bar'
-
-import { DiPostgresql, DiPhotoshop, DiBootstrap, DiLinux } from "react-icons/di";
+import { DiPostgresql, DiPhotoshop, DiBootstrap, DiSass } from "react-icons/di";
 import { AiFillApi } from "react-icons/ai";
 import { BiCodeCurly } from "react-icons/bi";
 import { SiTypescript, SiRedux } from "react-icons/si";
+
 import './index.scss';
 import skills from './skills.json';
 
@@ -36,7 +36,8 @@ const Skills = () => {
                    }}
             axisBottom={{
                 tickSize: 8,
-                tickPadding: 8
+                tickPadding: 8,
+                legend: 'Proeficiency Level'
             }}
             axisLeft={{
                 tickSize: 8,
@@ -78,14 +79,14 @@ const Skills = () => {
       <div className="otherSkills">
         <h1 className="title">Other Skills</h1>
         <ul>
-          <li><DiLinux/><span>Linux</span></li>
           <li><SiTypescript/><span>TypeScript</span></li>
           <li><SiRedux/><span>Redux</span></li>
+          <li><DiPostgresql/><span>PostgreSQL</span></li>
           <li><AiFillApi/><span>REST API</span></li>
           <li><BiCodeCurly/><span>JSON</span></li>
-          <li><DiPostgresql/><span>PostgreSQL</span></li>
-          <li><DiBootstrap/><span>Bootstrap</span></li>
           <li><DiPhotoshop/><span>Adobe Photoshop</span></li>
+          <li><DiBootstrap/><span>Bootstrap</span></li>
+          <li><DiSass/><span>Sass</span></li>
         </ul>
       </div>
     </div>

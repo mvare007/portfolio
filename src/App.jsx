@@ -15,7 +15,7 @@ const App = () => {
       <section id="about">
         <ParticlesBg
           type="cobweb"
-          color="#404448"
+          color="#815132"
           num={160}
           bg={true} />
         <AboutMe/>
@@ -27,7 +27,6 @@ const App = () => {
       <section id="skills">
         <Skills/>
       </section>
-      <hr/>
       <section id="contact">
         <Contact/>
       </section>

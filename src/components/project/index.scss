@@ -8,7 +8,6 @@
   overflow: hidden;
   transition: transform 0.5s;
   -webkit-transition: transform 0.5s;
-
   &:hover {
     cursor: pointer;
     transform: scale(1.1);
@@ -27,15 +26,24 @@
   line-height: 1.5em;
 }
 
+.card-intro {
+  font-family: 'Catamaran', sans-serif;
+  text-align: justify;
+}
+
 .card-title {
   font-size: 25px;
   line-height: 1.1em;
-  color: #32325d;
+  color: #522A57;
   margin-bottom: 0.2em;
 }
 
 .card-image{
-  height: 200px;
+  img {
+    width: 600px;
+    height: auto;
+  }
+  height: 300px;
   overflow: hidden;
   background-size: cover;
   background-position: center;
