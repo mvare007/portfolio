@@ -9,7 +9,7 @@ import './index.scss';
 import skills from './skills.json';
 
 const Skills = () => {
-  const keys = [ 'HTML5', 'CSS', 'Ruby on Rails', 'JavaScript', 'React', 'SQL']
+  const keys = [ 'HTML5', 'CSS', 'Ruby on Rails', 'JavaScript', 'React', 'SQL'];
   return (
     <div className="container">
       <div className="mainSkills">
