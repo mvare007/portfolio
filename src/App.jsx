@@ -16,7 +16,7 @@ const App = () => {
         <ParticlesBg
           type="cobweb"
           color="#815132"
-          num={160}
+          num={40}
           bg={true} />
         <AboutMe/>
       </section>
