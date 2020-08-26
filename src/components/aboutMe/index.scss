@@ -32,6 +32,11 @@
   .profilePic {
     width: 50%;
   }
+  @media (min-width: 768px) {
+    .projects {
+      width: 40%;
+    }
+  }
 }
 @media (min-width: 992px) {
   .profilePic {
