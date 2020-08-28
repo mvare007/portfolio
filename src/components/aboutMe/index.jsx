@@ -32,7 +32,7 @@ const AboutMe = () => {
         <h1 className="headline">{renderHello()}, I'm <strong className="name">Marco Varela</strong>.</h1>
         <Typed
            className="headline2"
-           strings={['I\'am a full stack web developer based in Lisbon who is deeply passionate about empowering humans through technology. Check out my work!']}
+           strings={['I\'am a full stack web developer based in Lisbon who is deeply passionate about empowering humans through technology.']}
            typeSpeed={13}/>
         <a href="#projects" className="btn" onClick={handleClick}>My Projects ▼</a>
       </div>
