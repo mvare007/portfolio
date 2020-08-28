@@ -33,7 +33,7 @@ const AboutMe = () => {
         <Typed
            className="headline2"
            strings={['I\'am a full stack web developer based in Lisbon who is deeply passionate about empowering humans through technology. Check out my work!']}
-           typeSpeed={20}/>
+           typeSpeed={13}/>
         <a href="#projects" className="btn" onClick={handleClick}>My Projects ▼</a>
       </div>
     </div>
