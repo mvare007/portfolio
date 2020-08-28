@@ -12,7 +12,6 @@
   }
   .mainSkills {
     height: 80vh;
-    width: 90vw;
   }
 }
 
@@ -23,7 +22,6 @@
   }
   .mainSkills {
     height: 80vh;
-    width: 90vw;
   }
 }
 
@@ -34,7 +32,6 @@
   }
   .mainSkills {
     height: 80vh;
-    width: 70vw;
   }
 }
 
@@ -48,23 +45,22 @@
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
   .container {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
   }
   .mainSkills {
     height: 80vh;
-    width: 70vw;
   }
 }
 
 .otherSkills {
   text-align: center;
-  width: 70%;
-  margin: auto;
   ul {
     margin-top: 4rem;
+    margin-right: 2rem;
     list-style-type: none;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-column-gap: 0;
     li {
       display: grid;
       grid-template-columns: 1fr;

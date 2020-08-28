@@ -1,18 +1,18 @@
 [
-    { "id": "1",
+  {
+      "id": "1",
+      "name": "Orbis",
+      "description": "A fully responsive weather and timezone app built only with React, fetching country data from REST Countries API, weather data from Open Weather API and timezone data from Moment.js.",
+      "image": "https://res.cloudinary.com/dwzede5hc/image/upload/v1598385669/Github_Previews/orbis_anvouk.png",
+      "demo": "https://orbis-timeweather.netlify.app/",
+      "code": "https://github.com/mvare007/Orbis"
+    },  { "id": "2",
       "name": "Slack Clone",
       "description": "A simple clone of Slack built with a Ruby On Rails backend API and with React & Redux on the frontend.",
       "image": "https://res.cloudinary.com/dwzede5hc/image/upload/v1598385668/Github_Previews/slack_x247za.png",
       "demo": "https://slack-clone-mvare007.herokuapp.com/",
       "code": "https://github.com/mvare007/Slack-Clone"
-    }, {
-      "id": "2",
-      "name": "Orbis",
-      "description": "A weather & timezone app built only with React fetching country data from REST Countries API, weather data from Open Weather API and timezone data from Moment.js.",
-      "image": "https://res.cloudinary.com/dwzede5hc/image/upload/v1598385669/Github_Previews/orbis_anvouk.png",
-      "demo": "https://orbis-timeweather.netlify.app/",
-      "code": "https://github.com/mvare007/Orbis"
-    }, {
+    },  {
       "id": "3",
       "name": "Ajuda aí",
       "description": "A prototype social network built with Ruby on Rails.",
