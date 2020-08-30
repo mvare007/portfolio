@@ -20,7 +20,7 @@ const AboutMe = () => {
   }
 
   const handleClick = (e) => {
-    e.target.innerHTML = "😊"
+    e.target.innerHTML = "My Projects ▼"
   }
   return(
     <div className="profile">
@@ -34,7 +34,7 @@ const AboutMe = () => {
            className="headline2"
            strings={['I\'am a full stack web developer based in Lisbon who is deeply passionate about empowering humans through technology.']}
            typeSpeed={13}/>
-        <a href="#projects" className="btn" onClick={handleClick}>My Projects ▼</a>
+        <a href="#projects" className="btn" onClick={handleClick}>My Projects ►</a>
       </div>
     </div>
   );
