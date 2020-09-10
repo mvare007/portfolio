@@ -26,5 +26,12 @@
       "image": "https://res.cloudinary.com/dwzede5hc/image/upload/v1598385669/Github_Previews/webet_kwwwyt.png",
       "demo": "http://webet.pt/",
       "code": "https://github.com/tiagus/we-bet"
+    }, {
+      "id": "5",
+      "name": "React Calculator",
+      "description": "A calculator which uses Math.js to safely evaluate expressions.",
+      "image": "https://res.cloudinary.com/dwzede5hc/image/upload/v1599741031/Github_Previews/calc_ebqcto.png",
+      "demo": "https://cool-calculator.netlify.app/",
+      "code": "https://github.com/mvare007/calculator"
     }
 ]
