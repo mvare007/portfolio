@@ -31,7 +31,7 @@ const AboutMe = () => {
           className="profilePic"
           src={profilePic}
           alt="Marco"/>
-        <h1 className="headline">{renderHello()}! I'm <strong className="name">Marco Varela</strong>.</h1>
+        <h1 className="headline">{renderHello()}!<br/> I'm <strong className="name">Marco Varela</strong>.</h1>
         <h2 className="headline2">I'am a full stack web developer based in Lisbon who is deeply passionate about empowering humans through technology. </h2>
         <Typed
            className="headline3"

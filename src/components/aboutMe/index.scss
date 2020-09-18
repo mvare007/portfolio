@@ -46,7 +46,7 @@
 
 
 .headline {
-  font-size: calc(35px + (30 - 14) * ((100vw - 500px) / (1600 - 300)));
+  font-size: calc(32px + (30 - 14) * ((100vw - 500px) / (1600 - 300)));
   .name {
     -webkit-animation: color-change-2x 1.8s linear infinite alternate both;
             animation: color-change-2x 1.8s linear infinite alternate both;
@@ -56,7 +56,7 @@
 .headline2 {
   font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
   font-weight: normal;
-  height: 50px;
+  height: 45px;
   width: 60%;
   margin: 0 auto;
   text-align: justify;
@@ -64,7 +64,7 @@
 
 .headline3 {
   font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
-  height: 55px;
+  height: 20px;
   width: 60%;
   margin: 4rem auto;
   margin-bottom: 0;
