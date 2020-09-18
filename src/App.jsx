@@ -1,6 +1,6 @@
 import React from 'react';
 import ParticlesBg from 'particles-bg';
-import Scrollspy from 'react-scrollspy'
+import Scrollspy from 'react-scrollspy';
 
 import './App.scss';
 import AboutMe from './components/aboutMe';
@@ -14,9 +14,8 @@ const App = () => {
     <div className="App">
       <section id="about">
         <ParticlesBg
-          type="cobweb"
-          color="#815132"
-          num={40}
+          type="square"
+          num={5}
           bg={true} />
         <AboutMe/>
       </section>

@@ -1,7 +1,7 @@
 [
   {
     "skill": "HTML",
-    "HTML5": 95
+    "HTML5": 85
   },
   {
     "skill": "CSS",
@@ -17,10 +17,10 @@
   },
   {
     "skill": "JavaScript",
-    "JavaScript": 75
+    "JavaScript": 70
   },
   {
     "skill": "Ruby",
-    "Ruby on Rails": 85
+    "Ruby on Rails": 75
   }
 ]

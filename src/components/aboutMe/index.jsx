@@ -20,8 +20,10 @@ const AboutMe = () => {
   }
 
   const handleClick = (e) => {
-    e.target.innerHTML = "My Projects ▼"
+    e.target.innerHTML = "My Projects ▼";
+    e.target.classList.remove("heartbeat");
   }
+
   return(
     <div className="profile">
       <div className="intro">
@@ -29,12 +31,13 @@ const AboutMe = () => {
           className="profilePic"
           src={profilePic}
           alt="Marco"/>
-        <h1 className="headline">{renderHello()}, I'm <strong className="name">Marco Varela</strong>.</h1>
+        <h1 className="headline">{renderHello()}! I'm <strong className="name">Marco Varela</strong>.</h1>
+        <h2 className="headline2">I'am a full stack web developer based in Lisbon who is deeply passionate about empowering humans through technology. </h2>
         <Typed
-           className="headline2"
-           strings={['I\'am a full stack web developer based in Lisbon who is deeply passionate about empowering humans through technology.']}
-           typeSpeed={13}/>
-        <a href="#projects" className="btn" onClick={handleClick}>My Projects ►</a>
+           className="headline3"
+           strings={['Thank you for visiting my page :)']}
+           typeSpeed={80}/>
+        <a href="#projects" className="btn heartbeat" onClick={handleClick}>My Projects ►</a>
       </div>
     </div>
   );
