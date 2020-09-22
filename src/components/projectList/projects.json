@@ -10,7 +10,7 @@
       "name": "Slack Clone",
       "description": "A simple clone of Slack built with a Ruby On Rails backend API and with React & Redux on the frontend.",
       "image": "https://res.cloudinary.com/dwzede5hc/image/upload/v1598385668/Github_Previews/slack_x247za.png",
-      "demo": "https://slack-clone-mvare007.herokuapp.com/",
+      "demo": "https://slack-clone-mvare007.herokuapp.com/users/sign_up",
       "code": "https://github.com/mvare007/Slack-Clone"
     },  {
       "id": "3",
