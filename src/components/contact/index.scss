@@ -1,6 +1,6 @@
 .contact {
-  background: rgba(164,202,156,1);
-  box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.1);
+  background: rgba(164, 202, 156, 1);
+  box-shadow: 0px 0px 0px 8px rgba(0, 0, 0, 0.1);
   height: 60vh;
   display: flex;
   flex-flow: column wrap;
@@ -17,8 +17,8 @@
     color: #000;
     transition: all 0.3s ease;
     &:hover {
-    color: #866223;
-    opacity: 0.9;
+      color: #866223;
+      opacity: 0.9;
     }
   }
 }
@@ -29,7 +29,7 @@
     text-decoration: none;
     color: #866223;
     &:hover {
-        opacity: 0.7;
+      opacity: 0.7;
     }
   }
 }

@@ -71,14 +71,14 @@
         font-size: calc(10px + (22 - 14) * ((100vw - 300px) / (1600 - 300)));
       }
       svg {
-        background-image: url('../../images/pattern.png');
+        background-image: url("../../images/pattern.png");
         border: 1px solid #000;
         border-radius: 50px;
         padding: 12px;
         font-size: calc(24px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
         margin-bottom: 10px;
         &:hover {
-          background-image: url('../../images/pattern2.png');
+          background-image: url("../../images/pattern2.png");
         }
       }
     }
@@ -90,4 +90,3 @@
   opacity: 0.9;
   font-size: calc(30px + (20 - 14) * ((100vw - 300px) / (1600 - 300)));
 }
-

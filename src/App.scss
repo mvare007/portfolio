@@ -4,10 +4,10 @@
   left: 0;
   margin-top: 0px;
   opacity: 0.9;
-  background-image: url('././images/pattern.png');
+  background-image: url("././images/pattern.png");
   padding: 3px;
   border: 1px solid #515458;
-  border-radius: 0px 0px 80px ;
+  border-radius: 0px 0px 80px;
   box-shadow: 1px 5px #0005;
   z-index: 10;
   li {
@@ -26,14 +26,13 @@
   }
 
   .is-current {
-    -webkit-transition: 0.2s  ease-in-out;
-    -moz-transition: 0.2s  ease-in-out;
-    -o-transition: 0.2s  ease-in-out;
-    transition: 0.2s  ease-in-out;
+    -webkit-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
     text-decoration: underline overline;
     a {
       color: #000;
     }
   }
 }
-
