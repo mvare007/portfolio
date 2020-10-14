@@ -1,22 +1,30 @@
 [
   {
     "id": "1",
+    "name": "REST Vinhos API",
+    "description": "A RESTful api which exposes information on over 3200 wines in portuguese.",
+    "image": "https://res.cloudinary.com/dwzede5hc/image/upload/v1602695680/Screenshot_from_2020-10-14_18-13-44_hklhmk.png",
+    "demo": "https://restvinhos.herokuapp.com/",
+    "code": "https://github.com/mvare007/REST-Vinhos"
+  },
+  {
+    "id": "2",
     "name": "Orbis",
-    "description": "A fully responsive weather and timezone app built only with React, fetching country data from REST Countries API, weather data from Open Weather API and timezone data from Moment.js.",
+    "description": "A fully responsive weather and timezone app built with React, fetching country data from REST Countries API, weather data from Open Weather API and timezone data from Moment.js.",
     "image": "https://res.cloudinary.com/dwzede5hc/image/upload/v1598385669/Github_Previews/orbis_anvouk.png",
     "demo": "https://orbis-timeweather.netlify.app/",
     "code": "https://github.com/mvare007/Orbis"
   },
   {
-    "id": "2",
+    "id": "3",
     "name": "Slack Clone",
-    "description": "A simple clone of Slack built with a Ruby On Rails backend API and with React & Redux on the frontend.",
+    "description": "A simple clone of Slack built with Ruby On Rails in the backend and with React & Redux on the frontend.",
     "image": "https://res.cloudinary.com/dwzede5hc/image/upload/v1598385668/Github_Previews/slack_x247za.png",
     "demo": "https://slack-clone-mvare007.herokuapp.com/users/sign_up",
     "code": "https://github.com/mvare007/Slack-Clone"
   },
   {
-    "id": "3",
+    "id": "4",
     "name": "Ajuda aí",
     "description": "A prototype social network built with Ruby on Rails.",
     "image": "https://res.cloudinary.com/dwzede5hc/image/upload/v1598385669/Github_Previews/ajudaAi_gwx4xy.png",
@@ -24,15 +32,15 @@
     "code": "https://github.com/mvare007/Ajuda-ai"
   },
   {
-    "id": "4",
+    "id": "5",
     "name": "We Bet",
-    "description": "My first ever project built as a team in a week - a betting group platform.",
+    "description": "My first ever project built as a team for the Le Wagon Bootcamp demo day.",
     "image": "https://res.cloudinary.com/dwzede5hc/image/upload/v1598385669/Github_Previews/webet_kwwwyt.png",
     "demo": "http://webet.pt/",
     "code": "https://github.com/tiagus/we-bet"
   },
   {
-    "id": "5",
+    "id": "6",
     "name": "React Calculator",
     "description": "A calculator which uses Math.js to safely evaluate expressions.",
     "image": "https://res.cloudinary.com/dwzede5hc/image/upload/v1599741031/Github_Previews/calc_ebqcto.png",
