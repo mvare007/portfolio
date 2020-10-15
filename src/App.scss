@@ -20,7 +20,7 @@
       font-size: calc(12px + (22 - 14) * ((100vw - 1000px) / (1600 - 300)));
       font-weight: bold;
       &:hover {
-        text-decoration: overline;
+        text-decoration: underline;
       }
     }
   }
@@ -30,7 +30,6 @@
     -moz-transition: 0.2s ease-in-out;
     -o-transition: 0.2s ease-in-out;
     transition: 0.2s ease-in-out;
-    text-decoration: underline overline;
     a {
       color: #000;
     }
