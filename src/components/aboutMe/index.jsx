@@ -1,5 +1,5 @@
 import React from "react";
-import Typed from "react-typed";
+ //import Typed from "react-typed";
 import TextLoop from "react-text-loop";
 
 import "./index.scss";
@@ -46,11 +46,6 @@ const AboutMe = () => {
           I'am a full stack web developer based in Lisbon who is deeply
           passionate about empowering humans through technology.{" "}
         </h2>
-        <Typed
-          className="headline3"
-          strings={["Thank you for visiting my page :)"]}
-          typeSpeed={80}
-        />
         <a href="#projects" className="btn heartbeat" onClick={handleClick}>
           My Projects ►
         </a>

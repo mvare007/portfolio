@@ -4,7 +4,7 @@ import { ResponsiveBar } from "@nivo/bar";
 import { DiPostgresql, DiPhotoshop, DiBootstrap, DiSass } from "react-icons/di";
 import { AiFillApi } from "react-icons/ai";
 import { BiCodeCurly } from "react-icons/bi";
-import { SiTypescript, SiRedux } from "react-icons/si";
+import { SiJava, SiRedux } from "react-icons/si";
 
 import "./index.scss";
 import skills from "./skills.json";
@@ -84,8 +84,8 @@ const Skills = () => {
           <h1 className="title">Other Skills</h1>
           <ul>
             <li>
-              <SiTypescript />
-              <span>TypeScript</span>
+              <SiJava />
+              <span>Java</span>
             </li>
             <li>
               <SiRedux />
